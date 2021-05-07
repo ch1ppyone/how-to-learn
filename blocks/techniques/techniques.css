@@ -1,0 +1,8 @@
+.techniques {
+  padding-top: 100px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

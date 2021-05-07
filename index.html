@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
+
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="pages/index.css">
   </head>
   <body>
     <div class="page">
       <header class="header">
         <img
           src="images/logo_place_header.svg"
-          class="header__logo"
+          class="logo logo_place_header"
           alt="Яндекс Практикум"
         />
         <h1 class="header__title">Научиться учиться</h1>
@@ -26,7 +27,7 @@
           class="header__main-illustration"
           alt="Яндекс Практикум"
         />
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
 
       <main class="content">
@@ -332,11 +333,7 @@
               </p>
             </div>
           </div>
-          <img
-            src="images/triangle.svg"
-            alt="Треугольник"
-            class="kaufman__triangle"
-          />
+          <div class="kaufman__triangle rotation"></div>
         </section>
 
         <section class="resourses">
@@ -344,57 +341,57 @@
           <p class="section-subtitle">
             Больше материалов о техниках и лайфхаках обучения
           </p>
-          <div class="resourses__logo-zone">
-            <img
-              src="images/logo/resources-arzamas.svg"
-              alt="Арзамас"
-              class="resourses_logo"
-            />
-            <img
-              src="images/logo/resources-n1.svg"
-              alt="N+1"
-              class="resourses_logo"
-            />
-            <img
-              src="images/logo/resources-strelka.svg"
-              alt="Стрелка"
-              class="resourses_logo"
-            />
-            <img
-              src="images/logo/resources-polka.svg"
-              alt="Полка"
-              class="resourses_logo"
-            />
-          </div>
+
+          <ul class="resourses__logo-zone">
+            <li >
+              <a href="#" class="resources__link">
+                <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="resources__link">
+                <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Н+1">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="resources__link">
+                <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="resources__link">
+                <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка">
+              </a>
+            </li>
+          </ul>
+
         </section>
       </main>
 
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
-            <div class="logo logo_place_footer">
-              <img src="images/logo_place_footer.svg" alt="Яндекс Практикум" />
-            </div>
+              <img class="logo logo_place_footer" src="images/logo_place_footer.svg" alt="Яндекс Практикум" />
             <p class="footer__author">&copy; Максим Николюкин</p>
           </div>
 
-          <div class="footer__column footer__column_content_info">
-            <p class="footer__column-heading">О Практикуме</p>
+          <nav class="footer__column footer__column_content_info">
+            <h3 class="footer__column-heading">О Практикуме</h3>
             <div class="footer__column-links">
               <a class="footer__column-link" href="#">Главная</a>
               <a class="footer__column-link" href="#">Концепция</a>
               <a class="footer__column-link" href="#">Наставники</a>
             </div>
-          </div>
+          </nav>
 
           <div class="footer__column footer__column_content_social">
-            <p class="footer__column-heading">Соцсети</p>
+            <h3 class="footer__column-heading">Соцсети</h3>
             <div class="footer__column-links">
               <a class="footer__column-link" href="#"
                 ><img
                   class="footer__social-icons"
                   src="images/facebook_white.svg"
-                  alt="Facebook"
+                  alt="Фейсбук"
                 />
                 Facebook</a
               >
@@ -402,7 +399,7 @@
                 ><img
                   class="footer__social-icons"
                   src="images/vk_white.svg"
-                  alt="VK"
+                  alt="ВК"
                 />
                 ВКонтакте</a
               >
@@ -410,7 +407,7 @@
                 ><img
                   class="footer__social-icons"
                   src="images/instagram_white.svg"
-                  alt="Instagram"
+                  alt="Инстаграм"
                 />
                 Instagram</a
               >

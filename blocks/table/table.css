@@ -1,0 +1,6 @@
+.table {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
