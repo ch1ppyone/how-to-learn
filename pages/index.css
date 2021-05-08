@@ -1,6 +1,5 @@
 @import url(../vendor/normalize.css);
 
-
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/page/page.css);
 
@@ -89,8 +88,7 @@
 @import url(../blocks/resourses/__logo/resourses__logo.css);
 @import url(../blocks/resourses/__link/resources__link.css);
 
-
- /*footer */
+/*footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
@@ -102,4 +100,3 @@
 @import url(../blocks/footer/__column-link-line/footer__column-link.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
-
